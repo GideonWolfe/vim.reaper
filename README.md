@@ -14,3 +14,14 @@
 * ✂️ Code snippets powered by [UltiSnips](https://github.com/sirver/UltiSnips)
 * 💡 Intelligent suggestions with [vim-tabnine](https://github.com/zxqfl/tabnine-vim)
 * 📁 Simple file browsing with [NERDTree](https://github.com/scrooloose/nerdtree)
+* 📜 Dynamic homepage with [vim-startify](https://github.com/mhinz/vim-startify)
+
+# Installation
+
+Currently you can simply copy `init.vim` into your neovim config directory. However I am planning to break up the main config file into more modular, manageable parts. Stay tuned.
+
+# Usage
+
+## Startify
+To open Neovim to the startify buffer, simply launch `nvim` without any arguments. Your recently edited files will be displayed, as well as recently edited files from the current directory.
+
