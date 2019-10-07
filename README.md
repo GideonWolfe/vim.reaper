@@ -27,6 +27,7 @@ Currently you can simply copy `init.vim` into your neovim config directory. Howe
 * To quickly switch from `INSERT` to `NORMAL` mode, press `jk` or `kj` quickly.
 * In `NORMAL` mode, press `TAB` or `Shift+TAB` to cycle through open buffers.
 * `<Leader>` has been mapped to `SPACE`. In general, functions related to certain plugins can be started with the first letter of the plugin. For example: `<Leader>c` would be the root of commands relating to `CoC`.
+* In `NORMAL` mode, use `Ctrl+h/j/k/l/` to switch between open windows.
 
 ## Startify
 To open Neovim to the startify buffer, simply launch `nvim` without any arguments. Your recently edited files will be displayed, as well as recently edited files from the current directory.
