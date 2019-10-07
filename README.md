@@ -4,3 +4,8 @@
    
 <p align="center">💀 A Hackable, Fully Featured, Rice Friendly Neovim Configuration 💀</p>
 
+# Features
+
+* Colorscheme generated with [pywal](https://github.com/dylanaraps/pywal)
+* Code completion with [coc.nvim](https://github.com/neoclide/coc.nvim)
+* Tag management with [vista.vim](https://github.com/liuchengxu/vista.vim)
