@@ -35,7 +35,7 @@ To open Neovim to the startify buffer, simply launch `nvim` without any argument
 </p>
 
 ## Completion
-In the middle of a word, you can press `TAB` to open the Coc floating completion menu. This menu should be populated with sippets from `UltiSnips`, smart complete from `TabNine`, and any other completion suggestions. Press `Shift+Tab` to go up in the menu, and `Enter` to select an option.
+In the middle of a word, you can press `Tab` to open the Coc floating completion menu and cycle through options. This menu should be populated with sippets from `UltiSnips`, smart complete from `TabNine`, and any other completion suggestions. Press `Shift+Tab` to go up in the menu, and `Enter` to select an option.
 <p align="center">
   <img src="https://gideonwolfe.com/img/neovim/reaper/completion.png" width="640" height="360" title="coc">
 </p>
@@ -58,4 +58,14 @@ The tabline will display the currently open buffers, and wheather they have been
 The status bar displays the current editing mode, git hunks, git branch with branch status, the modified status of the buffer,  the filename and filetype, the character encoding method, progress through file, and warnings/errors found by linter.
 <p align="center">
   <img src="https://gideonwolfe.com/img/neovim/reaper/statusbar.png" width="940" height="23" title="statusbar">
+</p>
+
+## Vista
+I am still ironing out the kinks in my vista config (specifically with C files), but it should work pretty well for most filetypes. Press `F8` to toggle the Vista window.
+<p align="center">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/vista.png" width="640" height="360" title="vista">
+</p>
+For quick location of tags, you can activate the `Vista finder` fuzzyfinder by pressing `<Leader>vf`
+<p align="center">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/vistafzf.png" width="640" height="360" title="vistafzf">
 </p>
