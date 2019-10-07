@@ -51,7 +51,7 @@ In any buffer, press `F7` to open the NERDTree file browser. Optionally disable 
 ### Tabline
 The tabline will display the currently open buffers, and wheather they have been modified.
 <p align="center">
-  <img src="https://gideonwolfe.com/img/neovim/reaper/tabline.png" width="940" height="23" title="tabline">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/tabline.png" width="940" height="13" title="tabline">
 </p>
 
 ### Statusbar
