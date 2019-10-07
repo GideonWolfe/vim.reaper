@@ -22,8 +22,24 @@ Currently you can simply copy `init.vim` into your neovim config directory. Howe
 
 # Usage
 
+## Basic Usage
+
+* quickly switch from `INSERT` to `NORMAL` mode, press `jk` or `kj` quickly.
+* In `NORMAL` mode, press `TAB` or `Shift+TAB` to cycle through open buffers.
+* `<Leader>` has been mapped to `SPACE`. In general, functions related to certain plugins can be started with the first letter of the plugin. For example: `<Leader>c` would be the root of commands relating to `CoC`.
+
 ## Startify
 To open Neovim to the startify buffer, simply launch `nvim` without any arguments. Your recently edited files will be displayed, as well as recently edited files from the current directory.
 <p align="center">
   <img src="https://gideonwolfe.com/img/neovim/reaper/startify.png" width="640" height="360" title="startify">
 </p>
+
+## Completion
+In the middle of a word, you can press `TAB` to open the Coc floating completion menu. This menu should be populated with sippets from `UltiSnips`, smart complete from `TabNine`, and any other completion suggestions. Press `Shift+Tab` to go up in the menu, and `Enter` to select an option.
+<p align="center">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/completion.png" width="640" height="360" title="startify">
+</p>
+Note: Windows are set to the background color because the other colors look gross IMO. Ideally we could have a border on the floating windows but that is not implemented in CoC yet.
+
+## NERDTree
+In any buffer, press `F7` to open the NERDTree file browser. Optionally disable the `nerdtree-highlights` plugin if you don't want syntax highlighting in NT. 
