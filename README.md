@@ -6,10 +6,10 @@
 
 # Features
 
-* Colorscheme generated with [pywal](https://github.com/dylanaraps/pywal)
-* Code completion with [coc.nvim](https://github.com/neoclide/coc.nvim)
-* Tag management with [vista.vim](https://github.com/liuchengxu/vista.vim)
-* Git integration with [vim-fugitive](https://github.com/tpope/vim-fugitive) and [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
-* Informative statusline and tabline wih [vim-airline](https://github.com/vim-airline/vim-airline)
-* Code snippets powered by [UltiSnips](https://github.com/sirver/UltiSnips)
-* Intelligent suggestions with [vim-tabnine](https://github.com/zxqfl/tabnine-vim)
+* 🎨 Colorscheme generated with [pywal](https://github.com/dylanaraps/pywal)
+* 💭 Intellisense, Completion, and Linting with [coc.nvim](https://github.com/neoclide/coc.nvim)
+* 🏷️ Tag management with [vista.vim](https://github.com/liuchengxu/vista.vim)
+* 🔀 Git integration with [vim-fugitive](https://github.com/tpope/vim-fugitive) and [vim-gitgutter](https://github.com/airblade/vim-gitgutter)
+* ✈️ Informative statusline and tabline wih [vim-airline](https://github.com/vim-airline/vim-airline)
+* ✂️ Code snippets powered by [UltiSnips](https://github.com/sirver/UltiSnips)
+* 💡 Intelligent suggestions with [vim-tabnine](https://github.com/zxqfl/tabnine-vim)
