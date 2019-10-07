@@ -24,7 +24,7 @@ Currently you can simply copy `init.vim` into your neovim config directory. Howe
 
 ## Basic Usage
 
-* quickly switch from `INSERT` to `NORMAL` mode, press `jk` or `kj` quickly.
+* To quickly switch from `INSERT` to `NORMAL` mode, press `jk` or `kj` quickly.
 * In `NORMAL` mode, press `TAB` or `Shift+TAB` to cycle through open buffers.
 * `<Leader>` has been mapped to `SPACE`. In general, functions related to certain plugins can be started with the first letter of the plugin. For example: `<Leader>c` would be the root of commands relating to `CoC`.
 
@@ -43,3 +43,19 @@ Note: Windows are set to the background color because the other colors look gros
 
 ## NERDTree
 In any buffer, press `F7` to open the NERDTree file browser. Optionally disable the `nerdtree-highlights` plugin if you don't want syntax highlighting in NT. 
+<p align="center">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/nerdtree.png" width="640" height="360" title="startify">
+</p>
+
+## Airline
+### Tabline
+The tabline will display the currently open buffers, and wheather they have been modified.
+<p align="center">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/tabline.png" width="740" height="13" title="startify">
+</p>
+
+### Statusline
+The status line displays 
+<p align="center">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/statusbar.png" width="740" height="13" title="startify">
+</p>
