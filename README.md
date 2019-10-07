@@ -37,25 +37,25 @@ To open Neovim to the startify buffer, simply launch `nvim` without any argument
 ## Completion
 In the middle of a word, you can press `TAB` to open the Coc floating completion menu. This menu should be populated with sippets from `UltiSnips`, smart complete from `TabNine`, and any other completion suggestions. Press `Shift+Tab` to go up in the menu, and `Enter` to select an option.
 <p align="center">
-  <img src="https://gideonwolfe.com/img/neovim/reaper/completion.png" width="640" height="360" title="startify">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/completion.png" width="640" height="360" title="coc">
 </p>
 Note: Windows are set to the background color because the other colors look gross IMO. Ideally we could have a border on the floating windows but that is not implemented in CoC yet.
 
 ## NERDTree
 In any buffer, press `F7` to open the NERDTree file browser. Optionally disable the `nerdtree-highlights` plugin if you don't want syntax highlighting in NT. 
 <p align="center">
-  <img src="https://gideonwolfe.com/img/neovim/reaper/nerdtree.png" width="640" height="360" title="startify">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/nerdtree.png" width="640" height="360" title="nerdtree">
 </p>
 
 ## Airline
 ### Tabline
 The tabline will display the currently open buffers, and wheather they have been modified.
 <p align="center">
-  <img src="https://gideonwolfe.com/img/neovim/reaper/tabline.png" width="740" height="13" title="startify">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/tabline.png" width="940" height="23" title="tabline">
 </p>
 
-### Statusline
-The status line displays 
+### Statusbar
+The status bar displays the current editing mode, git hunks, git branch with branch status, the modified status of the buffer,  the filename and filetype, the character encoding method, progress through file, and warnings/errors found by linter.
 <p align="center">
-  <img src="https://gideonwolfe.com/img/neovim/reaper/statusbar.png" width="740" height="13" title="startify">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/statusbar.png" width="940" height="23" title="statusbar">
 </p>
