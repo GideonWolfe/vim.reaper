@@ -13,3 +13,4 @@
 * ✈️ Informative statusline and tabline with [vim-airline](https://github.com/vim-airline/vim-airline)
 * ✂️ Code snippets powered by [UltiSnips](https://github.com/sirver/UltiSnips)
 * 💡 Intelligent suggestions with [vim-tabnine](https://github.com/zxqfl/tabnine-vim)
+* 📁 Simple file browsing with [NERDTree](https://github.com/scrooloose/nerdtree)
