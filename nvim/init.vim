@@ -1,8 +1,8 @@
 " This script contains  a list of Vim-Plugged plugins 
-source ./configs/plugins.vim
+source $HOME/.config/nvim/configs/plugins.vim
 " This script contains general neovim settings 
-source ./configs/main.vim
+source $HOME/.config/nvim/configs/main.vim
 " This script contains plugin specific settings
-source ./configs/plugin-settings.vim
+source $HOME/.config/nvim/configs/plugin-settings.vim
 " This script contains mappings
-source ./configs/mappings.vim
+source $HOME/.config/nvim/configs/mappings.vim
