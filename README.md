@@ -22,6 +22,8 @@
 
 The `update_config.sh` script simply copies the `nvim` folder into your `$HOME/.config` directory. This script can also be used to update configurations that you have modified or have been updated from git.
 
+Before installing for the first time, go into the `vim.reaper/nvim` directory and run `nvim -u init.vim`. This will tell neovim to start launch this configuration file. This lets you fully get everything up and running before you commit to puting it in `.config`. Back up any old configs!
+
 # Usage
 
 ## Basic Usage
