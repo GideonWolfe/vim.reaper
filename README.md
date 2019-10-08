@@ -35,7 +35,7 @@ Currently you can simply copy `init.vim` into your neovim config directory. Howe
 ## Startify
 To open Neovim to the startify buffer, simply launch `nvim` without any arguments. Your recently edited files will be displayed, as well as recently edited files from the current directory.
 <p align="center">
-  <img src="https://gideonwolfe.com/img/neovim/reaper/startify.pn" width="640" height="360" title="startify">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/startify.png" width="640" height="360" title="startify">
 </p>
 
 ## Completion
