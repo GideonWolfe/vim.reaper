@@ -93,6 +93,7 @@ These must be installed to make use of all the awesome features
 * Git
 * coc.nvim [npm package](https://www.npmjs.com/package/coc.nvim)
 * [pywal](https://github.com/dylanaraps/pywal) for colorscheme
+* neovim python module from pip
 
 # Notes
 vim.reaper is only part of a balanced linux diet. Check out my dotfiles for more ricing goodness. Please feel free to let me know about any errors, or create PRs that expand the configuration or make it more robust on different systems.
