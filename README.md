@@ -88,3 +88,4 @@ These must be installed to make use of all the awesome features
 * OracleJDK or OpenJDK, version 8+ (only for Java)
 * Git
 * coc.nvim [npm package](https://www.npmjs.com/package/coc.nvim)
+* [pywal](https://github.com/dylanaraps/pywal) for colorscheme
