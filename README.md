@@ -17,6 +17,8 @@
 * 📜 Dynamic homepage with [vim-startify](https://github.com/mhinz/vim-startify)
 * 🔎 Distraction free writing with [Goyo](https://github.com/junegunn/goyo.vim)
 * 🧰 Assorted editing enhancements with [vim-surround](https://github.com/tpope/vim-surround), [auto-pairs](https://github.com/jiangmiao/auto-pairs), [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors), [indentLine](https://github.com/Yggdroot/indentLine), [tabular](https://github.com/godlygeek/tabular), [comfortable-motion.vim](https://github.com/comfortable-motion.vim), [vim-devicons](https://github.com/ryanoasis/vim-devicons)
+* 🔧 Easily configfurable to suit your needs
+* ⌨️ Common sense keybinds, so you can get right to work
 
 # Installation
 
