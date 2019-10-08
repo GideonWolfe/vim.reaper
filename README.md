@@ -34,6 +34,8 @@ Before installing for the first time, go into the `vim.reaper/nvim` directory an
 * Use `<Leader>bk` to kill the current buffer.
 * In `NORMAL` mode, use `Ctrl+h/j/k/l/` to switch between open windows.
 * Comfy smooth scroll with `Ctrl+u` plus `Ctrl+d`.
+Check `mappings.vim` for a complete list of keybinds.
+
 
 ## Startify
 To open Neovim to the startify buffer, simply launch `nvim` without any arguments. Your recently edited files will be displayed, as well as recently edited files from the current directory.
