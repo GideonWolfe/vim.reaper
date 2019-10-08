@@ -8,8 +8,6 @@
 "***********************************************************************************
 
 
-" Set leader to space bar
-let mapleader = " "
 
 " Colorsheme
 colorscheme wal
