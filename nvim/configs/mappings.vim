@@ -81,9 +81,27 @@ nmap <leader>cf <Plug>(coc-format-selected)
 " Show all diagnostics
 nnoremap  <Leader>cdi  :<C-u>CocList diagnostics<cr>
 " Manage extensions
-nnoremap  <Leader>ce  :CocList extensions<cr>
+nnoremap  <Leader>ce  :<C-u>CocList extensions<cr>
 " Show commands
 nnoremap  <Leader>cc  :<C-u>CocList commands<cr>
 " Find symbol of current document
 nnoremap <Leader>co  :<C-u>CocList outline<cr>
 
+
+" Git keybinds
+" Git status
+nnoremap  <Leader>gs  :Gstatus<cr>
+" Git diff in split window
+nnoremap  <Leader>gd  :Gdiffsplit<cr>
+" Git commit
+nnoremap  <Leader>gc  :Gcommit<cr>
+" Git push 
+nnoremap  <Leader>gP  :Gpush<cr>
+" Git pull 
+nnoremap  <Leader>gp  :Gpull<cr>
+" Git move 
+nnoremap  <Leader>gm  :Gmove<cr>
+" Git merge 
+nnoremap  <Leader>gM  :Gmerge<cr>
+" browse current file on web
+nnoremap  <Leader>gb  :Gbrowse<cr>
