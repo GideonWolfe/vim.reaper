@@ -20,7 +20,7 @@
 
 # Installation
 
-Ideally the `nvim` folder should be placed in side the `.config` folder in your home directory. I am working on a way to automate updating these files on git pull
+The `update_config.sh` script simply copies the `nvim` folder into your `$HOME/.config` directory. This script can also be used to update configurations that you have modified or have been updated from git.
 
 # Usage
 
