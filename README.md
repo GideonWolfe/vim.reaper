@@ -20,7 +20,7 @@
 
 # Installation
 
-Currently you can simply copy `init.vim` into your neovim config directory. However I am planning to break up the main config file into more modular, manageable parts. Stay tuned.
+Ideally the `nvim` folder should be placed in side the `.config` folder in your home directory. I am working on a way to automate updating these files on git pull
 
 # Usage
 
