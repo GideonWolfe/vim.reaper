@@ -50,14 +50,80 @@ Before installing for the first time, go into the `vim.reaper/nvim` directory an
 
 # Usage
 
-## Basic Usage
+## Keybindings
 
-* To quickly switch from `INSERT` to `NORMAL` mode, press `jk` or `kj` quickly.
-* In `NORMAL` mode, press `TAB` or `Shift+TAB` to cycle through open buffers.
-* `<Leader>` has been mapped to `SPACE`. In general, functions related to certain plugins can be started with the first letter of the plugin. For example: `<Leader>c` would be the root of commands relating to `CoC`.
-* Use `<Leader>bk` to kill the current buffer.
-* In `NORMAL` mode, use `Ctrl+h/j/k/l/` to switch between open windows.
-* Comfy smooth scroll with `Ctrl+u` plus `Ctrl+d`.
+Click to expand
+
+<details><summary><code>Basic keybinds</code> 🔑</summary>
+<p>
+  
+| Function                                | Keybind         |
+| --------------------------------------- | --------------- |
+| Leader Key                              | `SPACE`         |
+| Exit insert mode                        | `jk` or `kj`    |
+
+</p>
+</details>
+
+<details><summary><code>Navigation</code> 🚀</summary>
+<p>
+  
+| Function                                | Keybind         |
+| --------------------------------------- | --------------- |
+| Navigate to left window                 | `Ctrl+h`        |
+| Navigate to right window                | `Ctrl+l`        |
+| Navigate to top window                  | `Ctrl+k`        |
+| Navigate to bottom window               | `Ctrl+j`        |
+| Horizontal split then move to bottom window  `<Leader>+CTrl+s`    |
+| Horizontal split then move to right window  `<Leader>+CTrl+l`    |
+| Next tab                                | `Tab`    |
+| Previous tab                            | `Shift+Tab`    |
+| Kill tab                                | `<Leader>bk`    |
+| Scroll up                               | `Ctrl+j` or mouse scroll    |
+| Scroll down                             | `Ctrl+k` or mouse scroll    |
+
+</p>
+</details>
+
+<details><summary><code>coc.nvim</code> 💭</summary>
+<p>
+  
+| Function                                | Keybind         |
+| --------------------------------------- | --------------- |
+| Open completion window                  | `Tab`           |
+| Accept completion                       | `Enter`         |
+| coc-definition                          | `<Leader>cd`    |
+| coc-type-definition                     | `<Leader>ctd`   |
+| coc-type-implementation                 | `<Leader>ci`    |
+| coc-references                          | `<Leader>cr`    |
+| coc-rename                              | `<Leader>crn`   |
+| coc-format-selected                     | `<Leader>cf`    |
+| :CocList diagnostics                    | `<Leader>cdi`   |
+| :CocList extensions                     | `<Leader>ce`    |
+| :CocList commands                       | `<Leader>cc`    |
+| :CocList outline                        | `<Leader>co`    |
+
+
+</p>
+</details>
+
+<details><summary><code>git</code> 🔀</summary>
+<p>
+  
+| Function                                | Keybind         |
+| --------------------------------------- | --------------- |
+| :Gstatus                                | `<Leader>gs`    |
+| :Gdiffsplit                             | `<Leader>gd`    |
+| :Gcommit                                | `<Leader>gc`    |
+| :Gpush                                  | `<Leader>gp`    |
+| :Gpull                                  | `<Leader>gP`    |
+| :Gmove                                  | `<Leader>gm`    |
+| :Gmerge                                 | `<Leader>gM`    |
+| :Gbrowse                               | `<Leader>gb`    |
+
+</p>
+</details>
+
 Check `mappings.vim` for a complete list of keybinds.
 
 
