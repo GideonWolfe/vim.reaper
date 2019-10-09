@@ -9,7 +9,7 @@
 
 
 
-" Colorsheme
+" Colorscheme
 colorscheme wal
 
 " Limit line length for text files
@@ -18,13 +18,13 @@ autocmd FileType text,markdown,tex setlocal textwidth=180
 " Don't automatically collapse markdown
 set conceallevel=0
 
-" Don't dispay mode in command line (airilne already shows it)
+" Don't display mode in command line (airline already shows it)
 set noshowmode
 
 " Automatically re-read file if a change was detected outside of vim
 set autoread
 
-" no case sensative search unless uppercase is present
+" no case-sensitive search unless uppercase is present
 set ignorecase
 set smartcase
 
@@ -137,7 +137,7 @@ augroup END
 "}}}
 
 
-" Enable spellchecking for certain files
+" Enable spell-checking for certain files
 augroup markdownSpell
     autocmd!
     autocmd FileType markdown setlocal spell
