@@ -70,17 +70,17 @@ Click to expand
   
 | Function                                | Keybind         |
 | --------------------------------------- | --------------- |
-| Navigate to left window                 | `Ctrl+h`        |
-| Navigate to right window                | `Ctrl+l`        |
-| Navigate to top window                  | `Ctrl+k`        |
-| Navigate to bottom window               | `Ctrl+j`        |
-| Horizontal split then move to bottom window  `<Leader>+CTrl+s`    |
-| Horizontal split then move to right window  `<Leader>+CTrl+l`    |
-| Next tab                                | `Tab`    |
-| Previous tab                            | `Shift+Tab`    |
-| Kill tab                                | `<Leader>bk`    |
-| Scroll up                               | `Ctrl+j` or mouse scroll    |
-| Scroll down                             | `Ctrl+k` or mouse scroll    |
+| Navigate to left window                     | `Ctrl+h`                |
+| Navigate to right window                    | `Ctrl+l`                |
+| Navigate to top window                      | `Ctrl+k`                |
+| Navigate to bottom window                   | `Ctrl+j`                |
+| Horizontal split then move to bottom window | `<Leader>+CTrl+s`    |
+| Horizontal split then move to right window  | `<Leader>+CTrl+l`    |
+| Next tab                                    | `Tab`                  |
+| Previous tab                                | `Shift+Tab`                   |
+| Kill tab                                    | `<Leader>bk`    |
+| Scroll up                                   | `Ctrl+j` or mouse scroll    |
+| Scroll down                                 | `Ctrl+k` or mouse scroll    |
 
 </p>
 </details>
