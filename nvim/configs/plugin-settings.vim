@@ -81,7 +81,7 @@ let g:NERDTreeIndicatorMapCustom = {
         \ 'ignored'   : '☒',
         \ "unknown"   : "?"
         \ }
- 
+
 
 """"""""""""
 "Airline   "
@@ -129,7 +129,7 @@ let g:airline#extensions#hunks#hunk_symbols = [':', ':', ':']
 let g:airline#extensions#branch#format = 2
 
 
-""""""""""""""
+"""""""""""""
 "Devicons   "
 """""""""""""
 let g:webdevicons_enable = 1

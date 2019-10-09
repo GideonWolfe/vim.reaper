@@ -9,8 +9,17 @@
 
 
 
-" Colorsheme
+" Colorscheme
 colorscheme wal
+
+augroup specify_filetype
+    autocmd!
+    autocmd BufRead,BufNewFile *.md set filetype=markdown
+    autocmd BufRead,BufNewFile *.txt set filetype=text
+augroup END
+"
+" Enable spell-checking for certain files
+autocmd FileType text,markdown setlocal spell
 
 " Limit line length for text files
 autocmd FileType text,markdown,tex setlocal textwidth=180
@@ -18,13 +27,13 @@ autocmd FileType text,markdown,tex setlocal textwidth=180
 " Don't automatically collapse markdown
 set conceallevel=0
 
-" Don't dispay mode in command line (airilne already shows it)
+" Don't display mode in command line (airline already shows it)
 set noshowmode
 
 " Automatically re-read file if a change was detected outside of vim
 set autoread
 
-" no case sensative search unless uppercase is present
+" no case-sensitive search unless uppercase is present
 set ignorecase
 set smartcase
 
@@ -136,16 +145,3 @@ augroup END
         execute "digraphs xs " . 0x2093
 "}}}
 
-
-" Enable spellchecking for certain files
-augroup markdownSpell
-    autocmd!
-    autocmd FileType markdown setlocal spell
-    autocmd BufRead,BufNewFile *.md setlocal spell
-augroup END
-
-augroup textSpell
-    autocmd!
-    autocmd FileType text setlocal spell
-    autocmd BufRead,BufNewFile *.txt setlocal spell
-augroup END
