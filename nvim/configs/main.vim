@@ -12,6 +12,15 @@
 " Colorscheme
 colorscheme wal
 
+augroup specify_filetype
+    autocmd!
+    autocmd BufRead,BufNewFile *.md set filetype=markdown
+    autocmd BufRead,BufNewFile *.txt set filetype=text
+augroup END
+"
+" Enable spell-checking for certain files
+autocmd FileType text,markdown setlocal spell
+
 " Limit line length for text files
 autocmd FileType text,markdown,tex setlocal textwidth=180
 
@@ -136,16 +145,3 @@ augroup END
         execute "digraphs xs " . 0x2093
 "}}}
 
-
-" Enable spell-checking for certain files
-augroup markdownSpell
-    autocmd!
-    autocmd FileType markdown setlocal spell
-    autocmd BufRead,BufNewFile *.md setlocal spell
-augroup END
-
-augroup textSpell
-    autocmd!
-    autocmd FileType text setlocal spell
-    autocmd BufRead,BufNewFile *.txt setlocal spell
-augroup END
