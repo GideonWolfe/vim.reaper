@@ -76,7 +76,8 @@ nmap <leader>crn <Plug>(coc-rename)
 " Remap for format selected region
 xmap <leader>cf <Plug>(coc-format-selected)
 nmap <leader>cf <Plug>(coc-format-selected)
-
+" Fix current line
+nmap <leader>cfl  <Plug>(coc-fix-current)
 " Using CocList
 " Show all diagnostics
 nnoremap  <Leader>cdi  :<C-u>CocList diagnostics<cr>
