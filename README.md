@@ -119,7 +119,14 @@ Click to expand
 | :Gpull                                  | `<Leader>gP`    |
 | :Gmove                                  | `<Leader>gm`    |
 | :Gmerge                                 | `<Leader>gM`    |
-| :Gbrowse                               | `<Leader>gb`    |
+| :Gbrowse                                | `<Leader>gb`    |
+| :CocCommand git.browserOpen             | `<Leader>gbl`   |
+| :CocCommand git.chunkInfo               | `<Leader>gh`    |
+| :CocCommand git.showCommit              | `<Leader>gsc`   |
+| :CocCommand git.toggleGutters           | `<Leader>gg`    |
+
+
+
 
 </p>
 </details>
