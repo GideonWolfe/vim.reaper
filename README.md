@@ -9,6 +9,14 @@
   <a href="#installation">Installation</a> •
   <a href="#usage">Usage</a> •
   <a href="#required-tools">Required Tools</a>
+  <br>
+  <br>
+  <a href="https://github.com/gideonwolfe/vim.reaper/stargazers">
+    <img src="https://img.shields.io/github/stars/gideonwolfe/vim.reaper.svg?style=flat-square&logo=hackaday"/>
+  </a>
+  <a href="https://github.com/gideonwolfe/vim.reaper/commits/master">
+    <img src="https://img.shields.io/github/last-commit/gideonwolfe/vim.reaper.svg?style=flat-square&logo=vim"/>
+  </a>
 </p>
 
 # Features
@@ -113,3 +121,8 @@ These must be installed to make use of all the awesome features
 
 # Notes
 vim.reaper is only part of a balanced linux diet. Check out my dotfiles for more ricing goodness. Please feel free to let me know about any errors, or create PRs that expand the configuration or make it more robust on different systems.
+
+<p align=center>
+  <a href="https://gideonwolfe.com">
+    <img src="https://forthebadge.com/images/badges/60-percent-of-the-time-works-every-time.svg"/>
+</p>
