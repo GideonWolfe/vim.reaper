@@ -8,6 +8,29 @@
   "diagnostic.enable": true,
   "diagnostic.signOffset": 9999999,
   "diagnostic.highlightOffset": 9999999,
+  "diagnostic.virtualText": true,
+  "diagnostic.virtualTextPrefix": " ❯❯❯ ",
+
+  //CocList
+  "list.source.files.defaultOptions": ["--auto-preview"],
+  "list.source.outline.defaultOptions": ["--auto-preview"],
+  //prettier
+  "coc.preferences.formatOnSaveFiletypes": ["css","markdown"],
+  "prettier.statusItemText": "★ ",
+  "prettier.eslintIntegration": true,
+  "prettier.tslintIntegration": true,
+  "prettier.stylelintIntegration": true,
+  //git
+  "git.enableGutters": true,
+  "git.branchCharacter":"\uf408",
+  "git.addGlameToBufferVar": true,
+  "git.addGlameToVirtualText": false,
+  "git.virtualTextPrefix": " ❯❯❯ ",
+  "git.addedSign.hlGroup": "GitGutterAdd",
+  "git.changedSign.hlGroup": "GitGutterChange",
+  "git.removedSign.hlGroup": "GitGutterDelete",
+  "git.topRemovedSign.hlGroup": "GitGutterDelete",
+  "git.changeRemovedSign.hlGroup": "GitGutterChangeDelete",
 
   "suggest.completionItemKindLabels": {
     "function": "\uf794",

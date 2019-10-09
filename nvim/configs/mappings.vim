@@ -105,3 +105,11 @@ nnoremap  <Leader>gm  :Gmove<cr>
 nnoremap  <Leader>gM  :Gmerge<cr>
 " browse current file on web
 nnoremap  <Leader>gb  :Gbrowse<cr>
+" browse current line on web
+nnoremap  <Leader>gbl  :CocCommand git.browserOpen<cr>
+" View chunk information in preview window. 
+nnoremap  <Leader>gh  :CocCommand git.chunkInfo<cr>
+" View commit information in preview window. 
+nnoremap  <Leader>gsc  :CocCommand git.showCommit<cr>
+" Toggle git gutter sign columns
+nnoremap  <Leader>gg  :CocCommand git.toggleGutters<cr>
