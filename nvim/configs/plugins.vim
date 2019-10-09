@@ -19,6 +19,7 @@ call plug#begin('~/.vim/plugged')
 " Git wrapper
 Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-rhubarb'
 
 " Code Snippets Engine
 Plug 'SirVer/ultisnips'
