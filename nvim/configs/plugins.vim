@@ -48,9 +48,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Smart completion (to work with CoC)
 Plug 'zxqfl/tabnine-vim'
 
-" More langage support packs
-Plug 'sheerun/vim-polyglot'
-
 " Custom start page
 Plug 'mhinz/vim-startify'
 
