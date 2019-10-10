@@ -41,6 +41,7 @@
   - [tabular](https://github.com/godlygeek/tabular)
   - [comfortable-motion.vim](https://github.com/comfortable-motion.vim)
   - [vim-devicons](https://github.com/ryanoasis/vim-devicons)
+  - [NERD commenter](https://github.com/scrooloose/nerdcommenter/)
 
 # Installation
 
