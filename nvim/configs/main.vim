@@ -17,7 +17,11 @@ augroup specify_filetype
     autocmd BufRead,BufNewFile *.md set filetype=markdown
     autocmd BufRead,BufNewFile *.txt set filetype=text
 augroup END
-"
+
+
+" Longer leader key timeout
+set timeout timeoutlen=1500
+
 " Enable spell-checking for certain files
 autocmd FileType text,markdown setlocal spell
 
@@ -67,10 +71,10 @@ set printoptions+=syntax:y
 set showmatch
 
 " Keep a backup file.
-set backup
+"set backup
 
 " Save undo tree.
-set undofile
+"set undofile
 
 " Do not back up temporary files.
 set backupskip=/tmp/*,/private/tmp/*"

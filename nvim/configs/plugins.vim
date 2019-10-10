@@ -21,6 +21,9 @@ Plug 'tpope/vim-fugitive'
 Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-rhubarb'
 
+" Nerd Commenter
+Plug 'scrooloose/nerdcommenter'
+
 " Code Snippets Engine
 Plug 'SirVer/ultisnips'
 
@@ -29,9 +32,6 @@ Plug 'honza/vim-snippets'
 
 " Vim Surround
 Plug 'tpope/vim-surround'
-
-" Linter
-""Plug 'dense-analysis/ale'
 
 " Auto pairs
 Plug 'jiangmiao/auto-pairs'

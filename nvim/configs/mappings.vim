@@ -114,3 +114,29 @@ nnoremap  <Leader>gh  :CocCommand git.chunkInfo<cr>
 nnoremap  <Leader>gsc  :CocCommand git.showCommit<cr>
 " Toggle git gutter sign columns
 nnoremap  <Leader>gg  :CocCommand git.toggleGutters<cr>
+
+
+" NERD Commenter
+" Toggle comments in visual or normal mode
+nnoremap <leader>n :call NERDComment(0,"toggle")<cr>
+vnoremap <leader>n :call NERDComment(1,"toggle")<cr>
+" Toggle a sexy comment
+nnoremap <leader>ns :call NERDComment(0,"sexy")<cr>
+vnoremap <leader>ns :call NERDComment(1,"sexy")<cr>
+" append a  comment
+nnoremap <leader>na :call NERDComment(0,"append")<cr>
+vnoremap <leader>na :call NERDComment(1,"append")<cr>
+" uncomment section
+nnoremap <leader>nu :call NERDComment(0,"uncomment")<cr>
+vnoremap <leader>nu :call NERDComment(1,"uncomment")<cr>
+" invert comments
+nnoremap <leader>ni :call NERDComment(0,"invert")<cr>
+vnoremap <leader>ni :call NERDComment(1,"invert")<cr>
+" comment section
+nnoremap <leader>nc :call NERDComment(0,"comment")<cr>
+vnoremap <leader>nc :call NERDComment(1,"comment")<cr>
+"
+
+
+
+

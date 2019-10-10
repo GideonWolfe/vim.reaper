@@ -347,40 +347,11 @@ function! s:check_back_space() abort
   return !col || getline('.')[col - 1]  =~# '\s'
 endfunction
 
-
-"""""""
-"ALE  "
-"""""""
-let g:ale_sign_column_always = 1
-let g:ale_lint_on_insert_leave = 1
-let g:ale_fix_on_save = 1
-let g:ale_echo_msg_error_str = 'E'
-let g:ale_echo_msg_warning_str = 'W'
-let g:ale_echo_msg_format = '[%linter%] %s [%severity%]'
-let g:ale_open_list = 1
-let g:ale_list_window_size = 5
-let g:ale_sign_error = ''
-let g:ale_sign_warning = ''
-let g:ale_fixers = {
-\   '*': ['remove_trailing_lines', 'trim_whitespace'],
-\   'javascript': ['prettier'],
-\   'javascript.jsx': ['prettier'],
-\   'typescript': ['prettier'],
-\   'typescript.tsx': ['prettier'],
-\   'python': ['yapf'],
-\   'json': ['prettier'],
-\   'html': ['prettier'],
-\   'css': ['prettier', 'stylelint'],
-\   'scss': ['prettier', 'stylelint'],
-\}
-let g:ale_linters = {
-\   'javascript': ['eslint'],
-\   'javascript.jsx': ['eslint'],
-\   'typescript': ['eslint'],
-\   'typescript.tsx': ['eslint'],
-\   'python': ['flake8'],
-\   'json': ['jsonlint'],
-\   'html': ['htmlhint'],
-\   'css': ['stylelint'],
-\   'scss': ['stylelint'],
-\}
+"""""""""""""""""
+"Nerd Commenter "
+"""""""""""""""""
+" Add spaces after comment delimiters by default
+let g:NERDSpaceDelims = 1
+" Use compact syntax for prettified multi-line comments
+let g:NERDCompactSexyComs = 1
+" Allow commenting and inverting empty lines (useful when commenting a region)
