@@ -74,11 +74,11 @@ Click to expand
 | Navigate to right window                    | `Ctrl+l`                |
 | Navigate to top window                      | `Ctrl+k`                |
 | Navigate to bottom window                   | `Ctrl+j`                |
-| Horizontal split then move to bottom window | `<Leader>+CTrl+s`    |
-| Horizontal split then move to right window  | `<Leader>+CTrl+l`    |
+| Horizontal split then move to bottom window | `<Leader>+Ctrl+s`    |
+| Horizontal split then move to right window  | `<Leader>+Ctrl+l`    |
 | Next tab                                    | `Tab`                  |
-| Previous tab                                | `Shift+Tab`                   |
-| Kill tab                                    | `<Leader>bk`    |
+| Previous tab                                | `Shift+Tab`        |
+| Kill buffer                                 | `<Leader>bk`    |
 | Scroll up                                   | `Ctrl+j` or mouse scroll    |
 | Scroll down                                 | `Ctrl+k` or mouse scroll    |
 
