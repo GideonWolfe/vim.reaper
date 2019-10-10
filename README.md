@@ -66,6 +66,22 @@ Click to expand
 </p>
 </details>
 
+
+<details><summary><code>Editing</code> 🧬</summary>
+<p>
+  
+| Function                                | Keybind         |
+| --------------------------------------- | --------------- |
+| NERDComment toggle comment              | `<Leader>n`     |
+| NERDComment sexy comment                | `<Leader>ns`    |
+| NERDComment append comment              | `<Leader>na`    |
+| NERDComment uncomment                  | `<Leader>nu`    |
+| NERDComment comment                    | `<Leader>nc`    |
+| NERDComment invert                     | `<Leader>ni`    |
+
+</p>
+</details>
+
 <details><summary><code>Navigation</code> 🚀</summary>
 <p>
   
