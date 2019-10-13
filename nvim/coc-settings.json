@@ -60,7 +60,7 @@
     "default": "\uf29c"
   },
 
- "java.home": "/usr/lib/jvm/java-12-openjdk/",
+ "java.home": "/usr/lib/jvm/java-13-openjdk/",
  "eslint.trace.server": "verbose",
  "languageserver": {
    "ccls": {
