@@ -142,4 +142,3 @@ vnoremap <leader>nc :call NERDComment(1,"comment")<cr>
 nnoremap <silent> <Leader>ff :Files<CR>
 " fuzzy find tags
 nnoremap <silent> <Leader>ft :Vista finder ctags<CR>
-

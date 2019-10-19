@@ -358,8 +358,6 @@ let g:NERDCompactSexyComs = 1
 "
 
 
-
-
 """""""""""""""""
 " Fuzzy Finding "
 """""""""""""""""
@@ -383,4 +381,13 @@ if has('nvim') || has('gui_running')
   autocmd! FileType fzf                                                                                             
   autocmd  FileType fzf set laststatus=0 | autocmd WinLeave <buffer> set laststatus=2                               
 endif    
+
+
+"""""""""""""""""
+" Autosaving    "
+"""""""""""""""""
+let g:auto_save        = 1
+let g:auto_save_silent = 1
+let g:auto_save_events = ["InsertLeave", "TextChanged", "FocusLost"]
+
 

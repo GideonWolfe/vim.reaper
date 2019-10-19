@@ -24,6 +24,9 @@ Plug 'tpope/vim-rhubarb'
 " Nerd Commenter
 Plug 'scrooloose/nerdcommenter'
 
+" Autosaving
+Plug '907th/vim-auto-save'
+
 " Code Snippets Engine
 Plug 'SirVer/ultisnips'
 
