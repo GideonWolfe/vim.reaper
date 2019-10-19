@@ -48,6 +48,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Smart completion (to work with CoC)
 Plug 'zxqfl/tabnine-vim'
 
+" Fuzzy finding
+Plug 'junegunn/fzf', { 'dir': '~/.config/fzf', 'do': './install --no-bash' }
+Plug 'junegunn/fzf.vim'
+
 " Custom start page
 Plug 'mhinz/vim-startify'
 
