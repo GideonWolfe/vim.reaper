@@ -66,7 +66,6 @@ Click to expand
 </p>
 </details>
 
-
 <details><summary><code>Editing</code> 🧬</summary>
 <p>
   
@@ -98,6 +97,8 @@ Click to expand
 | Kill buffer                                 | `<Leader>bk`    |
 | Scroll up                                   | `Ctrl+j` or mouse scroll    |
 | Scroll down                                 | `Ctrl+k` or mouse scroll    |
+| Fuzzy Find tags                             |`<Leader>ft` |
+| Fuzzy Find files                             |`<Leader>ff` |
 
 </p>
 </details>
