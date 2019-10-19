@@ -199,7 +199,7 @@ I am still ironing out the kinks in my vista config (specifically with C files),
   <img src="https://gideonwolfe.com/img/neovim/reaper/vista.png" width="640" height="360" title="vista">
 </p>
 
-For quick location of tags, you can activate the `Vista finder` fuzzyfinder by pressing `<Leader>vf`
+For quick location of tags, you can activate the `Vista finder` fuzzyfinder by pressing `<Leader>ft`
 
 <p align="center">
   <img src="https://gideonwolfe.com/img/neovim/reaper/vistafzf.png" width="640" height="360" title="vistafzf">
