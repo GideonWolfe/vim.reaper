@@ -97,8 +97,6 @@ Click to expand
 | Kill buffer                                 | `<Leader>bk`    |
 | Scroll up                                   | `Ctrl+j` or mouse scroll    |
 | Scroll down                                 | `Ctrl+k` or mouse scroll    |
-| Fuzzy Find tags                             |`<Leader>ft` |
-| Fuzzy Find files                             |`<Leader>ff` |
 
 </p>
 </details>
@@ -177,7 +175,7 @@ In any buffer, press `F7` to open the NERDTree file browser. Optionally disable 
 
 ### Tabline
 
-The tabline will display the currently open buffers, and wheather they have been modified.
+The tabline will display the currently open buffers, and whether they have been modified.
 
 <p align="center">
   <img src="https://gideonwolfe.com/img/neovim/reaper/tabline.png" width="940" height="13" title="tabline">
@@ -199,7 +197,7 @@ I am still ironing out the kinks in my vista config (specifically with C files),
   <img src="https://gideonwolfe.com/img/neovim/reaper/vista.png" width="640" height="360" title="vista">
 </p>
 
-For quick location of tags, you can activate the `Vista finder` fuzzyfinder by pressing `<Leader>ft`
+For quick location of tags, you can activate the `Vista finder` fuzzyfinder by pressing `<Leader>vf`
 
 <p align="center">
   <img src="https://gideonwolfe.com/img/neovim/reaper/vistafzf.png" width="640" height="360" title="vistafzf">
