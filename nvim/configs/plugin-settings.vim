@@ -264,7 +264,6 @@ set updatetime=300
 let g:ycm_server_python_interpreter = '/usr/bin/python3'
 let g:coc_snippet_next = '<TAB>'
 let g:coc_snippet_prev = '<S-TAB>'
-"inoremap <silent><expr> <CR> pumvisible() ? "\<C-y><CR>" : "\<CR>"
 inoremap <expr> <cr> pumvisible() ? "\<C-e>\<CR>" : "\<CR>"
 
 " Extensions. Some need configuration. 
@@ -357,3 +356,36 @@ let g:NERDSpaceDelims = 1
 " Use compact syntax for prettified multi-line comments
 let g:NERDCompactSexyComs = 1
 " Allow commenting and inverting empty lines (useful when commenting a region)
+"
+
+"""""""""""""""""
+" Fuzzy Finding "
+"""""""""""""""""
+let g:fzf_colors =
+\ { 'fg':      ['bg', 'Normal'],
+\ 'bg':      ['bg', 'Normal'],
+\ 'hl':      ['fg', 'Comment'],
+\ 'fg+':     ['fg', 'CursorLine', 'CursorColumn', 'Normal'],
+\ 'bg+':     ['fg', 'CursorLine', 'CursorColumn'],
+\ 'hl+':     ['fg', 'Statement'],
+\ 'info':    ['fg', 'PreProc'],
+\ 'border':  ['fg', 'Ignore'],
+\ 'prompt':  ['fg', 'Conditional'],
+\ 'pointer': ['fg', 'Exception'],
+\ 'marker':  ['fg', 'Keyword'],
+\ 'spinner': ['fg', 'Label'],
+\ 'header':  ['fg', 'Comment'] }
+
+" Hide status bar while using fzf commands                                                                          
+if has('nvim') || has('gui_running')                                                                                
+  autocmd! FileType fzf                                                                                             
+  autocmd  FileType fzf set laststatus=0 | autocmd WinLeave <buffer> set laststatus=2                               
+endif    
+
+
+"""""""""""""""""
+" Autosaving    "
+"""""""""""""""""
+let g:auto_save        = 0
+let g:auto_save_silent = 1
+let g:auto_save_events = ["InsertLeave", "TextChanged", "FocusLost"]
