@@ -88,8 +88,8 @@ set dir^=$HOME/.config/nvim//storage/swaps//
 " Store undo files in one place.
 set undodir^=$HOME/.config/nvim/storage/undos//
 
-" No line wrapping
-set nowrap
+" line wrapping
+set wrap
 
 " Turns on detection for fyletypes, indentation files and plugin files
 filetype plugin indent on
