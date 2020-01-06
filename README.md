@@ -140,11 +140,22 @@ Click to expand
 | :CocCommand git.chunkInfo               | `<Leader>gh`    |
 | :CocCommand git.showCommit              | `<Leader>gsc`   |
 | :CocCommand git.toggleGutters           | `<Leader>gg`    |
+| :ToggleLazyGit                          | `<Leader>lg`    |
 
 </p>
 </details>
 
 Check `mappings.vim` for a complete list of keybinds.
+
+<details><summary><code>Misc</code> 🌐</summary>
+<p>
+  
+| Function                                | Keybind         |
+| --------------------------------------- | --------------- |
+| :ToggleLazyDocker                       | `<Leader>ld`    |
+
+</p>
+</details>
 
 ## Startify
 
@@ -197,7 +208,7 @@ I am still ironing out the kinks in my vista config (specifically with C files),
   <img src="https://gideonwolfe.com/img/neovim/reaper/vista.png" width="640" height="360" title="vista">
 </p>
 
-For quick location of tags, you can activate the `Vista finder` fuzzyfinder by pressing `<Leader>vf`
+For quick location of tags, you can activate the `Vista finder` fuzzyfinder by pressing `<Leader>ft`
 
 <p align="center">
   <img src="https://gideonwolfe.com/img/neovim/reaper/vistafzf.png" width="640" height="360" title="vistafzf">
@@ -217,6 +228,8 @@ These must be installed to make use of all the awesome features
 - coc.nvim [npm package](https://www.npmjs.com/package/coc.nvim)
 - [pywal](https://github.com/dylanaraps/pywal) for colorscheme
 - `neovim` python module from pip
+- [lazydocker](https://github.com/jesseduffield/lazydocker)
+- [lazygit](https://github.com/jesseduffield/lazygit)
 
 # Notes
 
