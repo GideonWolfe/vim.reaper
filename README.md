@@ -213,7 +213,7 @@ I am still ironing out the kinks in my vista config (specifically with C files),
 For quick location of tags, you can activate the `Vista finder` fuzzyfinder by pressing `<Leader>ft`
 
 <p align="center">
-  <img src="https://gideonwolfe.com/img/neovim/reaper/vistafzf.png" width="640" height="360" title="vistafzf">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/vistafuzzy.png" width="640" height="360" title="vistafzf">
 </p>
 
 To navigate the fzf menu, you can type the name of the tag or use `Ctrl+j` or `Ctrl+k`
