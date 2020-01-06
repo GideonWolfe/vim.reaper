@@ -222,10 +222,10 @@ To navigate the fzf menu, you can type the name of the tag or use `Ctrl+j` or `C
 
 LazyGit and LazyDocker give you a convenient TUI portal to your current git repo or docker stack. They can be brought up with `<Leader>lg` and `<Leader>ld` respectively.
 <p align="center">
-  <img src="https://gideonwolfe.com/img/neovim/reaper/lazygit.png" width="640" height="360" title="vistafzf">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/lazygit.png" width="640" height="360" title="lazygit">
 </p>
 <p align="center">
-  <img src="https://gideonwolfe.com/img/neovim/reaper/lazydocker.png" width="640" height="360" title="vistafzf">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/lazydocker.png" width="640" height="360" title="lazydocker">
 </p>
 
 # Required tools
