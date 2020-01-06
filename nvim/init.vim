@@ -6,3 +6,5 @@ source $HOME/.config/nvim/configs/main.vim
 source $HOME/.config/nvim/configs/plugin-settings.vim
 " This script contains mappings
 source $HOME/.config/nvim/configs/mappings.vim
+" This script contains functions
+source $HOME/.config/nvim/configs/functions.vim
