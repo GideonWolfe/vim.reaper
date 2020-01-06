@@ -145,7 +145,6 @@ Click to expand
 </p>
 </details>
 
-Check `mappings.vim` for a complete list of keybinds.
 
 <details><summary><code>Misc</code> 🌐</summary>
 <p>
@@ -156,6 +155,9 @@ Check `mappings.vim` for a complete list of keybinds.
 
 </p>
 </details>
+
+Check `mappings.vim` for a complete list of keybinds.
+
 
 ## Startify
 
@@ -216,6 +218,16 @@ For quick location of tags, you can activate the `Vista finder` fuzzyfinder by p
 
 To navigate the fzf menu, you can type the name of the tag or use `Ctrl+j` or `Ctrl+k`
 
+## LazyGit and LazyDocker
+
+LazyGit and LazyDocker give you a convenient TUI portal to your current git repo or docker stack. They can be brought up with `<Leader>lg` and `<Leader>ld` respectively.
+<p align="center">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/lazygit.png" width="640" height="360" title="vistafzf">
+</p>
+<p align="center">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/lazydocker.png" width="640" height="360" title="vistafzf">
+</p>
+
 # Required tools
 
 These must be installed to make use of all the awesome features
@@ -228,8 +240,8 @@ These must be installed to make use of all the awesome features
 - coc.nvim [npm package](https://www.npmjs.com/package/coc.nvim)
 - [pywal](https://github.com/dylanaraps/pywal) for colorscheme
 - `neovim` python module from pip
-- [lazydocker](https://github.com/jesseduffield/lazydocker)
-- [lazygit](https://github.com/jesseduffield/lazygit)
+- [lazydocker](https://github.com/jesseduffield/lazydocker) for TUI docker management
+- [lazygit](https://github.com/jesseduffield/lazygit) for TUI git management
 
 # Notes
 
