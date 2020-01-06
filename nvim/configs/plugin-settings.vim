@@ -46,11 +46,9 @@ nmap <F6> :Goyo<CR>
 """""""""""
 " Vista  "
 """""""""""
-nmap <F8> :Vista!!<CR>
 let g:vista_executive_for = {
       \ 'c': 'coc',
       \ }
-nnoremap <silent><leader>vf :Vista finder coc<CR>
 let g:vista_icon_indent = ["╰─▸ ", "├─▸ "]
 let g:vista#renderer#enable_icon = 1
 let g:vista_sidebar_width = 50
@@ -382,6 +380,8 @@ if has('nvim') || has('gui_running')
   autocmd  FileType fzf set laststatus=0 | autocmd WinLeave <buffer> set laststatus=2                               
 endif    
 
+" Centered floating window for fzf
+let g:fzf_layout = { 'window': 'call CreateCenteredFloatingWindow()' }
 
 """""""""""""""""
 " Autosaving    "

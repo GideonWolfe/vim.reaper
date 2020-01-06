@@ -114,6 +114,8 @@ nnoremap  <Leader>gh  :CocCommand git.chunkInfo<cr>
 nnoremap  <Leader>gsc  :CocCommand git.showCommit<cr>
 " Toggle git gutter sign columns
 nnoremap  <Leader>gg  :CocCommand git.toggleGutters<cr>
+" Lazygit
+nnoremap <silent> <Leader>lg :call ToggleLazyGit()<CR>
 
 
 " NERD Commenter
@@ -137,8 +139,8 @@ nnoremap <leader>nc :call NERDComment(0,"comment")<cr>
 vnoremap <leader>nc :call NERDComment(1,"comment")<cr>
 "
 
-" Fuzzy Finding
-" fuzzy find files
-nnoremap <silent> <Leader>ff :Files<CR>
-" fuzzy find tags
-nnoremap <silent> <Leader>ft :Vista finder ctags<CR>
+" Vista
+" Floating tag finder
+nnoremap  <Leader>ft  :Vista finder coc<cr>
+" Opens tagbar on right side of screen
+nmap <F8> :Vista!!<CR>
