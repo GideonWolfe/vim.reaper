@@ -144,3 +144,7 @@ vnoremap <leader>nc :call NERDComment(1,"comment")<cr>
 nnoremap  <Leader>ft  :Vista finder coc<cr>
 " Opens tagbar on right side of screen
 nmap <F8> :Vista!!<CR>
+
+
+" Lazydocker
+nnoremap <silent> <Leader>ld :call ToggleLazyDocker()<CR>

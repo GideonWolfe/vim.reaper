@@ -68,6 +68,18 @@ function! ToggleLazyGit()
     endif
 endfunction
 
+let s:lazydocker_open = 0
+function! ToggleLazyDocker()
+    if s:lazydocker_open
+        bd!
+        let s:lazydocker_open = 0
+    else
+        call OpenTerm('lazydocker')
+        let s:lazydocker_open = 1
+    endif
+endfunction
+
+
 function! OnTermExit(job_id, code, event) dict
     if a:code == 0
         bd!
