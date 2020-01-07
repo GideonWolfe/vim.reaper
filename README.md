@@ -165,6 +165,8 @@ Click to expand
 | :TranslateW                             | `<Leader>tw`    |
 | :TranslateR                             | `<Leader>tr`    |
 
+</p>
+</details>
 
 Check `mappings.vim` for a complete list of keybinds.
 
