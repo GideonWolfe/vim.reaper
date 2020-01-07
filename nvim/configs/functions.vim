@@ -20,7 +20,7 @@ function! CreateCenteredFloatingWindow()
     let opts.col += 2
     let opts.width -= 4
     call nvim_open_win(nvim_create_buf(v:false, v:true), v:true, opts)
-    au BufWipeout <buffer> exe 'bw '.s:buf
+    autocmd BufWipeout <buffer> exe 'bwipeout '.s:buf
 endfunction
 
 " When term starts, auto go into insert mode
@@ -29,60 +29,36 @@ autocmd TermOpen * startinsert
 " Turn off line numbers etc
 autocmd TermOpen * setlocal listchars= nonumber norelativenumber
 
-function! OpenTerm(cmd)
-    call CreateCenteredFloatingWindow()
-    call termopen(a:cmd, { 'on_exit': function('OnTermExit') })
+function! ToggleTerm(cmd)
+    if empty(bufname(a:cmd))
+        call CreateCenteredFloatingWindow()
+        call termopen(a:cmd, { 'on_exit': function('OnTermExit') })
+    else
+        bwipeout!
+    endif
 endfunction
 
 " Open Project
-let s:project_open = 0
 function! ToggleProject()
-    if s:project_open
-        bd!
-        let s:project_open = 0
-    else
-        call OpenTerm('tmuxinator-fzf-start.sh')
-        let s:project_open = 1
-    endif
+    call ToggleTerm('tmuxinator-fzf-start.sh')
 endfunction
 
-let s:scratch_open = 0
 function! ToggleScratchTerm()
-    if s:scratch_open
-        bd!
-        let s:scratch_open = 0
-    else
-        call OpenTerm('bash')
-        let s:scratch_open = 1
-    endif
+    call ToggleTerm('bash')
 endfunction
 
-let s:lazygit_open = 0
 function! ToggleLazyGit()
-    if s:lazygit_open
-        bd!
-        let s:lazygit_open = 0
-    else
-        call OpenTerm('lazygit')
-        let s:lazygit_open = 1
-    endif
+    call ToggleTerm('lazygit')
 endfunction
 
-let s:lazydocker_open = 0
 function! ToggleLazyDocker()
-    if s:lazydocker_open
-        bd!
-        let s:lazydocker_open = 0
-    else
-        call OpenTerm('lazydocker')
-        let s:lazydocker_open = 1
-    endif
+    call ToggleTerm('lazydocker')
 endfunction
 
 
 function! OnTermExit(job_id, code, event) dict
     if a:code == 0
-        bd!
+        bwipeout!
     endif
 endfunction
 
