@@ -389,3 +389,9 @@ let g:fzf_layout = { 'window': 'call CreateCenteredFloatingWindow()' }
 let g:auto_save        = 0
 let g:auto_save_silent = 1
 let g:auto_save_events = ["InsertLeave", "TextChanged", "FocusLost"]
+
+"""""""""""""""""
+" Translator    "
+"""""""""""""""""
+let g:translator_target_lang = "fr"
+

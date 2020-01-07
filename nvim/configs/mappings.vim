@@ -148,3 +148,14 @@ nmap <F8> :Vista!!<CR>
 
 " Lazydocker
 nnoremap <silent> <Leader>ld :call ToggleLazyDocker()<CR>
+
+" vim-translator
+" Echo translation in the cmdline
+nmap <silent> <Leader>t <Plug>Translate
+vmap <silent> <Leader>t <Plug>TranslateV
+" Display translation in a window
+nmap <silent> <Leader>tw <Plug>TranslateW
+vmap <silent> <Leader>tw <Plug>TranslateWV
+" Replace the text with translation
+nmap <silent> <Leader>tr <Plug>TranslateR
+vmap <silent> <Leader>tr <Plug>TranslateRV

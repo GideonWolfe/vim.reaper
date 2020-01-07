@@ -24,9 +24,6 @@ Plug 'tpope/vim-rhubarb'
 " Nerd Commenter
 Plug 'scrooloose/nerdcommenter'
 
-" Autosaving
-Plug '907th/vim-auto-save'
-
 " Code Snippets Engine
 Plug 'SirVer/ultisnips'
 
@@ -50,10 +47,6 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Smart completion (to work with CoC)
 Plug 'zxqfl/tabnine-vim'
-
-" Fuzzy finding
-Plug 'junegunn/fzf', { 'dir': '~/.config/fzf', 'do': './install --no-bash' }
-Plug 'junegunn/fzf.vim'
 
 " Custom start page
 Plug 'mhinz/vim-startify'
@@ -97,5 +90,8 @@ Plug 'lervag/vimtex'
 " Wal theme
 Plug 'dylanaraps/wal.vim'
 Plug 'deviantfero/wpgtk.vim'
+
+" Translator
+Plug 'voldikss/vim-translator'
 
 call plug#end()
