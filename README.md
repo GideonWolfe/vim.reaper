@@ -146,7 +146,7 @@ Click to expand
 </details>
 
 
-<details><summary><code>Misc</code> 🌐</summary>
+<details><summary><code>Misc</code> 🧰</summary>
 <p>
   
 | Function                                | Keybind         |
@@ -155,6 +155,16 @@ Click to expand
 
 </p>
 </details>
+
+<details><summary><code>Translation </code> 🌐</summary>
+<p>
+  
+| Function                                | Keybind         |
+| --------------------------------------- | --------------- |
+| :Translate                              | `<Leader>t`     |
+| :TranslateW                             | `<Leader>tw`    |
+| :TranslateR                             | `<Leader>tr`    |
+
 
 Check `mappings.vim` for a complete list of keybinds.
 
