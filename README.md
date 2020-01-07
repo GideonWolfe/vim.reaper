@@ -234,7 +234,7 @@ These must be installed to make use of all the awesome features
 
 - `fzf` to enable fuzzy finding
 - `eslint` [npm package](https://www.npmjs.com/package/eslint) for coc-eslint (only for JavaScript)
-- `ccls` package for C/C++ languace servers
+- `ccls` package for C/C++ language servers
 - `OracleJDK` or `OpenJDK`, version 8+ (only for Java)
 - `git`
 - coc.nvim [npm package](https://www.npmjs.com/package/coc.nvim)
