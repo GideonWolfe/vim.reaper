@@ -145,17 +145,6 @@ Click to expand
 </p>
 </details>
 
-
-<details><summary><code>Misc</code> 🧰</summary>
-<p>
-  
-| Function                                | Keybind         |
-| --------------------------------------- | --------------- |
-| :ToggleLazyDocker                       | `<Leader>ld`    |
-
-</p>
-</details>
-
 <details><summary><code>Translation </code> 🌐</summary>
 <p>
   
@@ -167,6 +156,17 @@ Click to expand
 
 </p>
 </details>
+
+<details><summary><code>Misc</code> 🧰</summary>
+<p>
+  
+| Function                                | Keybind         |
+| --------------------------------------- | --------------- |
+| :ToggleLazyDocker                       | `<Leader>ld`    |
+
+</p>
+</details>
+
 
 Check `mappings.vim` for a complete list of keybinds.
 
