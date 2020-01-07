@@ -240,6 +240,17 @@ LazyGit and LazyDocker give you a convenient TUI portal to your current git repo
   <img src="https://gideonwolfe.com/img/neovim/reaper/lazydocker.png" width="640" height="360" title="lazydocker">
 </p>
 
+## Translator
+By default I set the target language to french. This option is configurable in the plugin-settings, plus a ton of other options for that plugin I'm not even using at the moment.
+
+Here's what it looks like if you translate a phrase to a window with `<Leader>tw`.
+
+<p align="center">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/translate.png" title="translator">
+</p>
+
+
+
 # Required tools
 
 These must be installed to make use of all the awesome features
