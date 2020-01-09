@@ -154,6 +154,17 @@ Click to expand
 | :TranslateW                             | `<Leader>tw`    |
 | :TranslateR                             | `<Leader>tr`    |
 
+<details><summary><code>LaTeX </code> 📜</summary>
+<p>
+  
+| Function                                | Keybind         |
+| --------------------------------------- | --------------- |
+| :VimtexCompile                          | `<Leader>lc`    |
+| :VimtexCompileSelected                  | `<Leader>ls`    |
+| :VimtexInfo                             | `<Leader>li`    |
+| :VimtexTocToggle                        | `<Leader>lt`    |
+| :VimtexView                             | `<Leader>lv`    |
+
 </p>
 </details>
 
@@ -167,9 +178,7 @@ Click to expand
 </p>
 </details>
 
-
 Check `mappings.vim` for a complete list of keybinds.
-
 
 ## Startify
 
@@ -233,6 +242,7 @@ To navigate the fzf menu, you can type the name of the tag or use `Ctrl+j` or `C
 ## LazyGit and LazyDocker
 
 LazyGit and LazyDocker give you a convenient TUI portal to your current git repo or docker stack. They can be brought up with `<Leader>lg` and `<Leader>ld` respectively.
+
 <p align="center">
   <img src="https://gideonwolfe.com/img/neovim/reaper/lazygit.png" width="640" height="360" title="lazygit">
 </p>
@@ -241,6 +251,7 @@ LazyGit and LazyDocker give you a convenient TUI portal to your current git repo
 </p>
 
 ## Translator
+
 By default I set the target language to french. This option is configurable in the plugin-settings, plus a ton of other options for that plugin I'm not even using at the moment.
 
 Here's what it looks like if you translate a phrase to a window with `<Leader>tw`.
@@ -248,8 +259,6 @@ Here's what it looks like if you translate a phrase to a window with `<Leader>tw
 <p align="center">
   <img src="https://gideonwolfe.com/img/neovim/reaper/translate.png" title="translator">
 </p>
-
-
 
 # Required tools
 
