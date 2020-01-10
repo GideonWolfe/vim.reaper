@@ -159,3 +159,12 @@ vmap <silent> <Leader>tw <Plug>TranslateWV
 " Replace the text with translation
 nmap <silent> <Leader>tr <Plug>TranslateR
 vmap <silent> <Leader>tr <Plug>TranslateRV
+
+
+" Vimtex
+nmap <silent> <Leader>lc :VimtexCompile<cr>
+vmap <silent> <Leader>ls :VimtexCompileSelected<cr>
+nmap <silent> <Leader>li :VimtexInfo<cr>
+nmap <silent> <Leader>lt :VimtexTocToggle<cr>
+nmap <silent> <Leader>lv :VimtexView<cr>
+
