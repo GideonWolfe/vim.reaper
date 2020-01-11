@@ -17,8 +17,14 @@
   <a href="https://github.com/gideonwolfe/vim.reaper/commits/master">
     <img src="https://img.shields.io/github/last-commit/gideonwolfe/vim.reaper.svg?style=flat-square&logo=vim"/>
   </a>
+<br>
+<br>
+  <a href="https://github.com/gideonwolfe/vim.reaper/commits/master">
+    <img src="https://stars.medv.io/GideonWolfe/vim.reaper"/>
+  </a>
 </p>
 
+[![Sparkline](https://stars.medv.io/GideonWolfe/vim.reaper.svg)](https://stars.medv.io/GideonWolfe/vim.reaper) 
 # Features
 
 - 🎨 Colorscheme generated with [pywal](https://github.com/dylanaraps/pywal)
