@@ -87,6 +87,23 @@ nnoremap  <Leader>ce  :<C-u>CocList extensions<cr>
 nnoremap  <Leader>cc  :<C-u>CocList commands<cr>
 " Find symbol of current document
 nnoremap <Leader>co  :<C-u>CocList outline<cr>
+" Completion keybinds
+
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+
+" shift+tab cycles backwards 
+inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
+
+" Enter to confirm completion
+inoremap <expr> <cr> complete_info()["selected"] != "-1" ? "\<C-y>" : "\<C-g>u\<CR>"
 
 
 " Git keybinds

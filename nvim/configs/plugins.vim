@@ -25,7 +25,7 @@ Plug 'tpope/vim-rhubarb'
 Plug 'scrooloose/nerdcommenter'
 
 " Code Snippets Engine
-Plug 'SirVer/ultisnips'
+" Plug 'SirVer/ultisnips'
 
 " Snippets for ultisnips
 Plug 'honza/vim-snippets'
@@ -46,7 +46,7 @@ Plug 'Yggdroot/indentLine'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 
 " Smart completion (to work with CoC)
-Plug 'zxqfl/tabnine-vim'
+"Plug 'zxqfl/tabnine-vim'
 
 " Custom start page
 Plug 'mhinz/vim-startify'
