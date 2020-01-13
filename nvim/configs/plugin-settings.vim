@@ -185,7 +185,8 @@ let g:indentLine_fileTypeExclude = [
 """""""""""""
 "Autopairs  "
 """""""""""""
-let g:AutoPairsFlyMode = 1
+let g:AutoPairsFlyMode = 0
+let g:AutoPairsMultilineClose = 0
 
 """""""""""""
 "Ultinsips  "
