@@ -28,8 +28,9 @@ autocmd FileType text,markdown setlocal spell
 " Limit line length for text files
 autocmd FileType text,markdown,tex setlocal textwidth=180
 
-" Don't automatically collapse markdown
+" Don't automatically collapse markdown and Latex
 set conceallevel=0
+let g:tex_conceal = ""
 
 " Don't display mode in command line (airline already shows it)
 set noshowmode
