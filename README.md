@@ -181,6 +181,7 @@ Click to expand
 | Function                                | Keybind         |
 | --------------------------------------- | --------------- |
 | :ToggleLazyDocker                       | `<Leader>ld`    |
+| :MarkdownPreview                        | `<Leader>md`    |
 
 </p>
 </details>
