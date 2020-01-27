@@ -185,3 +185,6 @@ nmap <silent> <Leader>li :VimtexInfo<cr>
 nmap <silent> <Leader>lt :VimtexTocToggle<cr>
 nmap <silent> <Leader>lv :VimtexView<cr>
 
+
+" Markdown preview
+nmap <Leader>md <Plug>MarkdownPreviewToggle

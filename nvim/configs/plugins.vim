@@ -94,4 +94,7 @@ Plug 'deviantfero/wpgtk.vim'
 " Translator
 Plug 'voldikss/vim-translator'
 
+" Markdown Preview
+Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
+
 call plug#end()

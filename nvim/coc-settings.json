@@ -15,7 +15,7 @@
   "list.source.files.defaultOptions": ["--auto-preview"],
   "list.source.outline.defaultOptions": ["--auto-preview"],
   //prettier
-  "coc.preferences.formatOnSaveFiletypes": ["css","markdown"],
+  "coc.preferences.formatOnSaveFiletypes": ["css"],
   "prettier.statusItemText": "★ ",
   "prettier.eslintIntegration": true,
   "prettier.tslintIntegration": true,
