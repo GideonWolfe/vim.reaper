@@ -268,6 +268,16 @@ Here's what it looks like if you translate a phrase to a window with `<Leader>tw
   <img src="https://gideonwolfe.com/img/neovim/reaper/translate.png" title="translator">
 </p>
 
+## Markdown
+
+While editing a markdown document, press `<Leader>md` to open a live preview of your document.
+
+<p align="center">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/markdown.png" title="markdown">
+</p>
+
+If you are running pywal, your colors will be dynamically sourced!
+
 # Required tools
 
 These must be installed to make use of all the awesome features
