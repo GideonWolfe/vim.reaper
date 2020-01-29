@@ -74,7 +74,7 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'liuchengxu/vista.vim'
 
 " NERDTree
-Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdtree', { 'on': [ 'NERDTreeToggle', 'NERDTreeFind' ] }
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
 
