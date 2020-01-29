@@ -270,13 +270,23 @@ Here's what it looks like if you translate a phrase to a window with `<Leader>tw
 
 ## Markdown
 
-While editing a markdown document, press `<Leader>md` to open a live preview of your document.
+While editing a markdown document, press `<Leader>md` to open a live preview of your document. You must edit the plugin settings to point to the absolute filepath of the `css` file. This shoud just mean changing the username.
 
 <p align="center">
   <img src="https://gideonwolfe.com/img/neovim/reaper/markdown.png" title="markdown">
 </p>
 
 If you are running pywal, your colors will be dynamically sourced!
+
+## LaTeX
+
+While editing a LaTeX document, press `<Leader>lc` to start automatic compilation.
+
+<p align="center">
+  <img src="https://gideonwolfe.com/img/neovim/reaper/latex.png" title="latex">
+</p>
+
+use [zathura pywal](https://github.com/GideonWolfe/Zathura-Pywal) for the most cohesive theme!
 
 # Required tools
 
