@@ -309,7 +309,6 @@ let g:coc_global_extensions = [
       \'coc-stylelint',
       \'coc-yaml',
       \'coc-template',
-      \'coc-tabnine',
       \'coc-utils'
       \]
 
