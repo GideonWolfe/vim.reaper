@@ -97,4 +97,7 @@ Plug 'voldikss/vim-translator'
 " Markdown Preview
 Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 
+" vim-hexcolor
+Plug 'etdev/vim-hexcolor'
+
 call plug#end()
