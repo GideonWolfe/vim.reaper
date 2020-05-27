@@ -309,8 +309,9 @@ body { background-color: var(--background); }
   display: block;
   overflow-x: auto;
   padding: 0.5em;
-  color: #333;
-  background: var(--background);
+  /* color: #333; */
+  color: var(--color7) !important;
+  background: var(--background) !important;
 }
 
 .hljs-comment,
@@ -322,7 +323,7 @@ body { background-color: var(--background); }
 .hljs-keyword,
 .hljs-selector-tag,
 .hljs-subst {
-  color: var(--color4);
+  color: var(--color4) !important;
   font-weight: bold;
 }
 
@@ -336,7 +337,7 @@ body { background-color: var(--background); }
 
 .hljs-string,
 .hljs-doctag {
-  color: var(--color1);
+  color: var(--color1) !important;
 }
 
 .hljs-title,
