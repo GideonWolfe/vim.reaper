@@ -100,4 +100,8 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 " vim-hexcolor
 Plug 'etdev/vim-hexcolor'
 
+" codi interactive scratchpad
+" Temporary repo, may be deprecated
+Plug 'ChristianChiarulli/codi.vim'
+
 call plug#end()

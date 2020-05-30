@@ -381,3 +381,11 @@ let g:mkdp_markdown_css = '/home/gideon/.config/nvim/static/markdown-preview/cus
 " Trick plugin into hosting colors.css so we get nice themes
 let g:mkdp_highlight_css = '/home/gideon/.cache/wal/colors.css'
 let g:mkdp_port = '3456'
+
+
+""""""""
+" Codi "
+""""""""
+
+
+
