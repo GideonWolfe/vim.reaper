@@ -81,6 +81,7 @@ Click to expand
 | NERDComment uncomment                  | `<Leader>nu`    |
 | NERDComment comment                    | `<Leader>nc`    |
 | NERDComment invert                     | `<Leader>ni`    |
+| Table Mode Toggle                      | `<Leader>tm`    |
 
 </p>
 </details>

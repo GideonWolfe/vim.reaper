@@ -188,3 +188,6 @@ nmap <silent> <Leader>lv :VimtexView<cr>
 
 " Markdown preview
 nmap <Leader>md <Plug>MarkdownPreviewToggle
+
+" Table mode toggle
+nmap <silent> <Leader>tm :TableModeToggle<cr>

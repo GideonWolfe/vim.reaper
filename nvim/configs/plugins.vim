@@ -104,4 +104,7 @@ Plug 'etdev/vim-hexcolor'
 " Temporary repo, may be deprecated
 Plug 'ChristianChiarulli/codi.vim'
 
+" Easy tables in vim
+Plug 'dhruvasagar/vim-table-mode'
+
 call plug#end()
