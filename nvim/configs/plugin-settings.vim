@@ -388,4 +388,8 @@ let g:mkdp_port = '3456'
 """"""""
 
 
+""""""""""""""""""
+" Vim table mode "
+""""""""""""""""""
+let g:table_mode_corner='|'
 
