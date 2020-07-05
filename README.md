@@ -83,6 +83,7 @@ Click to expand
 | NERDComment comment                    | `<Leader>nc`    |
 | NERDComment invert                     | `<Leader>ni`    |
 | Table Mode Toggle                      | `<Leader>tm`    |
+| Convert to Table                      | `<Leader>tt`    |
 
 </p>
 </details>
