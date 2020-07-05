@@ -46,6 +46,7 @@
   - [comfortable-motion.vim](https://github.com/comfortable-motion.vim)
   - [vim-devicons](https://github.com/ryanoasis/vim-devicons)
   - [NERD commenter](https://github.com/scrooloose/nerdcommenter/)
+  - [vim-table-mode](https://github.com/dhruvasagar/vim-table-mode)
 
 # Installation
 
