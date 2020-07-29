@@ -76,11 +76,11 @@ Click to expand
   
 | Function                                | Keybind         |
 | --------------------------------------- | --------------- |
-| NERDComment toggle comment              | `<Leader>n`     |
+| NERDComment toggle comment              | `<Leader>nc`     |
 | NERDComment sexy comment                | `<Leader>ns`    |
 | NERDComment append comment              | `<Leader>na`    |
 | NERDComment uncomment                  | `<Leader>nu`    |
-| NERDComment comment                    | `<Leader>nc`    |
+| NERDComment comment                    | `<Leader>n`    |
 | NERDComment invert                     | `<Leader>ni`    |
 | Table Mode Toggle                      | `<Leader>tm`    |
 | Convert to Table                      | `<Leader>tt`    |
