@@ -140,8 +140,8 @@ nnoremap <silent> <Leader>lg :call ToggleLazyGit()<CR>
 
 " NERD Commenter
 " Toggle comments in visual or normal mode
-nnoremap <leader>n :call NERDComment(0,"toggle")<cr>
-vnoremap <leader>n :call NERDComment(1,"toggle")<cr>
+nnoremap <leader>nc :call NERDComment(0,"toggle")<cr>
+vnoremap <leader>nc :call NERDComment(1,"toggle")<cr>
 " Toggle a sexy comment
 nnoremap <leader>ns :call NERDComment(0,"sexy")<cr>
 vnoremap <leader>ns :call NERDComment(1,"sexy")<cr>
@@ -155,8 +155,8 @@ vnoremap <leader>nu :call NERDComment(1,"uncomment")<cr>
 nnoremap <leader>ni :call NERDComment(0,"invert")<cr>
 vnoremap <leader>ni :call NERDComment(1,"invert")<cr>
 " comment section
-nnoremap <leader>nc :call NERDComment(0,"comment")<cr>
-vnoremap <leader>nc :call NERDComment(1,"comment")<cr>
+nnoremap <leader>n :call NERDComment(0,"comment")<cr>
+vnoremap <leader>n :call NERDComment(1,"comment")<cr>
 "
 
 " Vista
