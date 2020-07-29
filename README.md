@@ -43,7 +43,7 @@
   - [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
   - [indentLine](https://github.com/Yggdroot/indentLine)
   - [tabular](https://github.com/godlygeek/tabular)
-  - [comfortable-motion.vim](https://github.com/comfortable-motion.vim)
+  - [comfortable-motion.vim](https://github.com/yuttie/comfortable-motion.vim)
   - [vim-devicons](https://github.com/ryanoasis/vim-devicons)
   - [NERD commenter](https://github.com/scrooloose/nerdcommenter/)
   - [vim-table-mode](https://github.com/dhruvasagar/vim-table-mode)
