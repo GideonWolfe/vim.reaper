@@ -38,6 +38,9 @@ nnoremap<silent> <S-Tab> :bprevious<CR>
 " Kill buffer with Space+bk
 nnoremap<silent> <Space>bk :bdelete<CR> 
 
+" Change Y to copy to end of line and behave like C
+nnoremap Y y$
+
 "Faster ESC.
 inoremap jk <ESC>
 inoremap kj <ESC>
