@@ -43,10 +43,11 @@
   - [vim-multiple-cursors](https://github.com/terryma/vim-multiple-cursors)
   - [indentLine](https://github.com/Yggdroot/indentLine)
   - [tabular](https://github.com/godlygeek/tabular)
-  - [comfortable-motion.vim](https://github.com/yuttie/comfortable-motion.vim)
+  - [comfortable-motion.vim](https://github.com/comfortable-motion.vim)
   - [vim-devicons](https://github.com/ryanoasis/vim-devicons)
   - [NERD commenter](https://github.com/scrooloose/nerdcommenter/)
   - [vim-table-mode](https://github.com/dhruvasagar/vim-table-mode)
+  - [vim-easymotion](https://github.com/easymotion/vim-easymotion/)
 
 # Installation
 
@@ -91,19 +92,23 @@ Click to expand
 <details><summary><code>Navigation</code> 🚀</summary>
 <p>
   
-| Function                                | Keybind         |
-| --------------------------------------- | --------------- |
-| Navigate to left window                     | `Ctrl+h`                |
-| Navigate to right window                    | `Ctrl+l`                |
-| Navigate to top window                      | `Ctrl+k`                |
-| Navigate to bottom window                   | `Ctrl+j`                |
-| Horizontal split then move to bottom window | `<Leader>+Ctrl+s`    |
-| Horizontal split then move to right window  | `<Leader>+Ctrl+l`    |
-| Next tab                                    | `Tab`                  |
-| Previous tab                                | `Shift+Tab`        |
-| Kill buffer                                 | `<Leader>bk`    |
-| Scroll up                                   | `Ctrl+j` or mouse scroll    |
-| Scroll down                                 | `Ctrl+k` or mouse scroll    |
+| Function                                     | Keybind                   |
+| -------------------------------------------- | ------------------------- |
+| Navigate to left window                      | `Ctrl+h`                  |
+| Navigate to right window                     | `Ctrl+l`                  |
+| Navigate to top window                       | `Ctrl+k`                  |
+| Navigate to bottom window                    | `Ctrl+j`                  |
+| Horizontal split then move to bottom window  | `<Leader>+Ctrl+s`         |
+| Horizontal split then move to right window   | `<Leader>+Ctrl+l`         |
+| Next tab                                     | `Tab`                     |
+| Previous tab                                 | `Shift+Tab`               |
+| Kill buffer                                  | `<Leader>bk`              |
+| Scroll up                                    | `Ctrl+j` or mouse scroll  |
+| Scroll down                                  | `Ctrl+k` or mouse scroll  |
+| Easymotion find word                         | `<Leader><Leader>+w`      |
+| Easymotion find end of word                  | `<Leader><Leader>+e`      |
+| Easymotion find character                    | `<Leader><Leader>+f`      |
+| Easymotion find two characters               | `<Leader><Leader>+s`      |
 
 </p>
 </details>

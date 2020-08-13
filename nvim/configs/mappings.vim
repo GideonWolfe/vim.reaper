@@ -194,3 +194,19 @@ nmap <Leader>md <Plug>MarkdownPreviewToggle
 
 " Table mode toggle
 nmap <silent> <Leader>tm :TableModeToggle<cr>
+
+" vim-minimap controls
+let g:minimap_show='<leader>ms'
+let g:minimap_update='<leader>mu'
+let g:minimap_close='<leader>mc'
+let g:minimap_toggle='<leader>mt'
+
+" easymotion commands
+map <Leader><Leader>. <Plug>(easymotion-repeat)
+map <Leader><Leader>f <Plug>(easymotion-bd-f)
+nmap <Leader><Leader>f <Plug>(easymotion-overwin-f)
+nmap <Leader><Leader>s <Plug>(easymotion-overwin-f2)
+nmap <Leader><Leader>j <Plug>(easymotion-overwin-line)
+nmap <Leader><Leader>k <Plug>(easymotion-overwin-line)
+map  <Leader><Leader>w <Plug>(easymotion-bd-w)
+map <Leader><Leader>w <Plug>(easymotion-overwin-w)

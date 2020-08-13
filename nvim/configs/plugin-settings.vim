@@ -393,3 +393,12 @@ let g:mkdp_port = '3456'
 """"""""""""""""""
 let g:table_mode_corner='|'
 
+
+"""""""""""""""""""
+" Vim easy motion "
+"""""""""""""""""""
+
+hi EasyMotionTarget ctermbg=none ctermfg=green
+hi EasyMotionShade  ctermbg=none ctermfg=cyan
+hi EasyMotionTarget2First ctermbg=none ctermfg=red
+hi EasyMotionTarget2Second ctermbg=none ctermfg=cyan

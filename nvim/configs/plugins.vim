@@ -107,4 +107,8 @@ Plug 'ChristianChiarulli/codi.vim'
 " Easy tables in vim
 Plug 'dhruvasagar/vim-table-mode'
 
+" Easymodion
+Plug 'easymotion/vim-easymotion'
+
+
 call plug#end()
