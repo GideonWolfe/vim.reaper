@@ -400,3 +400,9 @@ body { background-color: var(--background); }
   font-weight: bold;
 }
 
+.katex-display {
+  display: block;
+  margin: 1em 0;
+  text-align: center;
+  color: var(--color6);
+}
