@@ -42,6 +42,12 @@ let g:vimtex_compiler_latexmk = {
     \   '-interaction=nonstopmode',
     \ ],
     \}
+  " Compile on initialization, cleanup on quit
+  augroup vimtex_event_1
+    au!
+    au User VimtexEventQuit     call vimtex#compiler#clean(0)
+    au User VimtexEventInitPost call vimtex#compiler#compile()
+  augroup END
 
 """""""""""
 " Goyo    "
@@ -383,10 +389,10 @@ let g:mkdp_highlight_css = '/home/gideon/.cache/wal/colors.css'
 let g:mkdp_port = '3456'
 
 
-""""""""
-" Codi "
-""""""""
-
+"""""""""""
+" minimap "
+"""""""""""
+let g:minimap_width = 20
 
 """"""""""""""""""
 " Vim table mode "
@@ -397,8 +403,13 @@ let g:table_mode_corner='|'
 """""""""""""""""""
 " Vim easy motion "
 """""""""""""""""""
-
 hi EasyMotionTarget ctermbg=none ctermfg=green
 hi EasyMotionShade  ctermbg=none ctermfg=cyan
 hi EasyMotionTarget2First ctermbg=none ctermfg=red
 hi EasyMotionTarget2Second ctermbg=none ctermfg=cyan
+
+" Vimwiki
+
+let g:vimwiki_list = [{'path': '~/.config/vimwiki/',
+                      \ 'syntax': 'markdown', 'ext': '.md'}]
+
