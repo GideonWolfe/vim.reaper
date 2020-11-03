@@ -87,12 +87,14 @@ body { background-color: var(--background); }
   font-size: 2.25em;
   line-height: 1.2;
   border-bottom: 1px solid var(--color4);
+  color: var(--color13) !important;
 }
 .markdown-body h2 {
   padding-bottom: 0.3em;
   font-size: 1.75em;
   line-height: 1.225;
   border-bottom: 1px solid var(--color4);
+  color: var(--color12) !important;
 }
 .markdown-body h3 {
   font-size: 1.5em;
@@ -113,7 +115,7 @@ body { background-color: var(--background); }
   margin-bottom: 20px;
   height: 0;
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid var(--color4);
 }
 .markdown-body ol,
 .markdown-body ul {
@@ -136,6 +138,10 @@ body { background-color: var(--background); }
 }
 .markdown-body ul {
   list-style-type: disc;
+  /* color: var(--color9) !important; */ /* changes color of all bullet lists */
+}
+li::marker {
+  color: var(--color14) !important; /* changes color of bullet points */
 }
 .markdown-body dl {
   margin-bottom: 1.3em
@@ -360,32 +366,35 @@ body { background-color: var(--background); }
 .hljs-tag,
 .hljs-name,
 .hljs-attribute {
-  color: #000080;
   font-weight: normal;
+  color: var(--color6) !important; /* Color of XML/HTML tags */
 }
 
 .hljs-regexp,
 .hljs-link {
-  color: #009926;
+  /* color: #009926; */
+  color: var(--color9) !important; 
 }
 
 .hljs-symbol,
 .hljs-bullet {
-  color: #990073;
+  /* color: #990073; */
+  color: var(--color10) !important; 
 }
 
 .hljs-built_in,
 .hljs-builtin-name {
-  color: #0086b3;
+  /* color: #0086b3; */
+  color: var(--color12) !important;
 }
 
 .hljs-meta {
-  color: #999;
+  color: var(--color8) !important; /* Color of meta tags */
   font-weight: bold;
 }
 
 .hljs-deletion {
-  background: #fdd;
+  background: var(--color3);
 }
 
 .hljs-addition {
