@@ -21,7 +21,7 @@ body { background-color: var(--background); }
   word-wrap: break-word;
   padding: 45px;
   background: var(--background);
-  border: 1px solid var(--foreground);
+  border: 0px solid var(--foreground);
   -webkit-border-radius: 0 0 3px 3px;
   border-radius: 0 0 3px 3px;
 }
