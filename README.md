@@ -17,6 +17,9 @@
   <a href="https://github.com/gideonwolfe/vim.reaper/commits/master">
     <img src="https://img.shields.io/github/last-commit/gideonwolfe/vim.reaper.svg?style=flat-square&logo=vim"/>
   </a>
+  <a href="http://hits.dwyl.com/GideonWolfe/vimreaper.svg">
+    <img src="http://hits.dwyl.com/GideonWolfe/vimreaper.svg"/>
+  </a>
 
 <p align="center">
   <img src="https://stars.medv.io/GideonWolfe/vim.reaper.svg", title="commits"/>
