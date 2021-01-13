@@ -314,8 +314,7 @@ let g:coc_global_extensions = [
       \'coc-post',
       \'coc-stylelint',
       \'coc-yaml',
-      \'coc-template',
-      \'coc-utils'
+      \'coc-template'
       \]
 
 augroup MyAutoCmd
