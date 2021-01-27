@@ -19,7 +19,7 @@
   "prettier.statusItemText": "★ ",
   "prettier.eslintIntegration": true,
   "prettier.tslintIntegration": true,
-  "prettier.stylelintIntegration": true,
+  "prettier.stylelintIntegration": false,
   //git
   "git.enableGutters": true,
   "git.branchCharacter":"\uf408",
