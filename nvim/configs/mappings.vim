@@ -92,6 +92,18 @@ nnoremap  <Leader>cc  :<C-u>CocList commands<cr>
 nnoremap <Leader>co  :<C-u>CocList outline<cr>
 " Completion keybinds
 
+" Use K to show documentation in preview window.
+nnoremap <silent> K :call <SID>show_documentation()<CR>
+function! s:show_documentation()
+  if (index(['vim','help'], &filetype) >= 0)
+    execute 'h '.expand('<cword>')
+  elseif (coc#rpc#ready())
+    call CocActionAsync('doHover')
+  else
+    execute '!' . &keywordprg . " " . expand('<cword>')
+  endif
+endfunction
+
 inoremap <silent><expr> <TAB>
       \ pumvisible() ? "\<C-n>" :
       \ <SID>check_back_space() ? "\<TAB>" :
@@ -196,10 +208,8 @@ nmap <Leader>md <Plug>MarkdownPreviewToggle
 nmap <silent> <Leader>tm :TableModeToggle<cr>
 
 " vim-minimap controls
-let g:minimap_show='<leader>ms'
-let g:minimap_update='<leader>mu'
-let g:minimap_close='<leader>mc'
-let g:minimap_toggle='<leader>mt'
+" let g:minimap_toggle='<leader>mm'
+nmap <silent> <Leader>mm :MinimapToggle<cr>
 
 " easymotion commands
 map <Leader><Leader>. <Plug>(easymotion-repeat)
