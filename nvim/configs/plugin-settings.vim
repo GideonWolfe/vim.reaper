@@ -10,7 +10,6 @@
 """""""""""""""
 " Vim polyglot"
 """""""""""""""
-let g:polyglot_disabled = ['latex']
 
 
 """""""""""""""
@@ -314,7 +313,8 @@ let g:coc_global_extensions = [
       \'coc-post',
       \'coc-stylelint',
       \'coc-yaml',
-      \'coc-template'
+      \'coc-template',
+      \'coc-utils'
       \]
 
 augroup MyAutoCmd
@@ -386,7 +386,19 @@ let g:mkdp_markdown_css = '/home/gideon/.config/nvim/static/markdown-preview/cus
 " Trick plugin into hosting colors.css so we get nice themes
 let g:mkdp_highlight_css = '/home/gideon/.cache/wal/colors.css'
 let g:mkdp_port = '3456'
-
+let g:mkdp_preview_options = {
+    \ 'mkit': {},
+    \ 'katex': {},
+    \ 'uml': {'server': 'http://localhost:4928'},
+    \ 'maid': {},
+    \ 'disable_sync_scroll': 0,
+    \ 'sync_scroll_type': 'middle',
+    \ 'hide_yaml_meta': 1,
+    \ 'sequence_diagrams': {},
+    \ 'flowchart_diagrams': {},
+    \ 'content_editable': v:false,
+    \ 'disable_filename': 0
+    \ }
 
 """""""""""
 " minimap "

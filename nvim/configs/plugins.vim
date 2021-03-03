@@ -55,6 +55,7 @@ Plug 'mhinz/vim-startify'
 Plug 'pangloss/vim-javascript'
 
 " Language Packs
+let g:polyglot_disabled = ['latex']
 Plug 'sheerun/vim-polyglot'
 
 " Status bar
@@ -107,8 +108,13 @@ Plug 'ChristianChiarulli/codi.vim'
 " Easy tables in vim
 Plug 'dhruvasagar/vim-table-mode'
 
+" VS-Code style minimap
+Plug 'wfxr/minimap.vim'
+
 " Easymodion
 Plug 'easymotion/vim-easymotion'
+
+" Plug 'vimwiki/vimwiki'
 
 
 call plug#end()
