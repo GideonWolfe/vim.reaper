@@ -7,10 +7,6 @@
 "
 "*****************************************************************************************
 
-"""""""""""""""
-" Vim polyglot"
-"""""""""""""""
-
 
 """""""""""""""
 " Git Gutter  "
@@ -63,6 +59,7 @@ let g:vista_executive_for = {
 let g:vista_icon_indent = ["╰─▸ ", "├─▸ "]
 let g:vista#renderer#enable_icon = 1
 let g:vista_sidebar_width = 50
+let g:indentLine_setConceal = 0
 
 """"""""""""
 "NerdTree  "
