@@ -60,7 +60,7 @@
     "default": "\uf29c"
   },
 
- "java.home": "/usr/lib/jvm/java-13-openjdk/",
+ "java.home": "/usr/lib/jvm/java-15-openjdk/",
  "eslint.trace.server": "verbose",
  "languageserver": {
    "ccls": {
@@ -83,7 +83,7 @@
      }
     }
   },
-  "java.errors.incompleteClasspath.severity": "ignore",
+  "java.errors.incompleteClasspath.severity": "ignore"
 
 
 }
