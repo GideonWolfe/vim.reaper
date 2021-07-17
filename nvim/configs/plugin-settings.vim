@@ -19,7 +19,6 @@ let g:gitgutter_grep=''
 " Vimspector "
 """"""""""""""""
 let g:vimspector_enable_mappings = 'HUMAN'
-let g:vimspector_enable_mappings
 
 """""""""""
 " VimTex  "
