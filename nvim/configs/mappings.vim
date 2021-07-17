@@ -67,8 +67,10 @@ vnoremap <Leader>Ar :right<CR>
 " Plugin specific keybinds
 
 "***********************************************************************************
- 
-" COC Keybinds
+" vimspector 
+nmap <leader>dw :call win_gotoid("g:vimspector_session_windows.watches")
+
+"COC Keybinds
 " Remap keys for gotos
 map <leader>cd <Plug>(coc-definition)
 nmap <leader>ct <Plug>(coc-type-definition)
