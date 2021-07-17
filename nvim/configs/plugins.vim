@@ -102,8 +102,7 @@ Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() } }
 Plug 'etdev/vim-hexcolor'
 
 " codi interactive scratchpad
-" Temporary repo, may be deprecated
-Plug 'ChristianChiarulli/codi.vim'
+Plug 'metakirby5/codi.vim'
 
 " Easy tables in vim
 Plug 'dhruvasagar/vim-table-mode'
@@ -115,6 +114,9 @@ Plug 'wfxr/minimap.vim'
 Plug 'easymotion/vim-easymotion'
 
 " Plug 'vimwiki/vimwiki'
+"Plug 'vimwiki/vimwiki'
 
+" Plugin 'puremourning/vimspector'
+Plug 'puremourning/vimspector'
 
 call plug#end()
