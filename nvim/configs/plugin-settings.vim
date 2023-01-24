@@ -309,9 +309,7 @@ let g:coc_global_extensions = [
       \'coc-lists',
       \'coc-post',
       \'coc-stylelint',
-      \'coc-yaml',
-      \'coc-template',
-      \'coc-utils'
+      \'coc-yaml'
       \]
 
 augroup MyAutoCmd
