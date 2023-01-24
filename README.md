@@ -309,6 +309,7 @@ These must be installed to make use of all the awesome features
 - `OracleJDK` or `OpenJDK`, version 8+ (only for Java)
 - `git`
 - coc.nvim [npm package](https://www.npmjs.com/package/coc.nvim)
+- `code-minimap` package for minimap
 - [pywal](https://github.com/dylanaraps/pywal) for colorscheme
 - `neovim` python module from pip
 - [lazydocker](https://github.com/jesseduffield/lazydocker) for TUI docker management
